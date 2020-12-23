@@ -1,0 +1,144 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'tradegothiclt-bold', sans-serif;
+    overflow: hidden;
+    font-size: 3vw;
+    text-transform: lowercase;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    color: lightgreen;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+    width: 100vw;
+    font-size: 3vw;
+    text-transform: lowercase;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    color: lightgreen;
+    font-family: "Courier New", Courier, monospace;
+}
+
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+#hackerman {
+    overflow: hidden;
+    width: 100vw;
+}
+#animated {
+    font-family: "Courier New", Courier, monospace;
+    color: lightgreen;
+    font-size: 3vmin;
+    height: 100vh;
+    width: 100vw;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    }
+
+    #skip {
+        width: 5vh;
+        background: black;
+        border:0;
+        color:lightgreen;
+        margin-top: 70vh; 
+        font-family: 'Courier New', Courier, monospace
+    }
+    img[src = "kanál.png"] {
+        height: 25vh;
+        width: 25vw;
+    }
+
+    img[src = "kés.png"] {
+        height: 25vh;
+        width: 25vw;
+    }
+
+    img[src = "villa.png"] {
+        height: 25vh;
+        width: 25vw;
+    }
+        
+    #game {
+        display: grid;
+        display: none;
+        width: 100vw;
+        font-size: 3vw;
+        text-transform: lowercase;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        color: lightgreen;
+        font-family: "Courier New", Courier, monospace;
+    }
+
+    #g00 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #g01 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    #g02 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    #g10 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #g11 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    #g12 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    #g20 {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #g21 {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    #g22 {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
